@@ -12,6 +12,7 @@ var BareScripts = []
 var Scripts = ["solartower"]
 
 
+
 if (!BareMode) {
     for (var i = 0; i < Scripts.length; i++) {
         require(Scripts[i])
