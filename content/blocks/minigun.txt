@@ -1,4 +1,7 @@
 
+UNUSED
+
+type: ItemTurret
 buildVisibility: hidden
 name: Minigun
 description: Sprays useless silver bullets everywhere. What a mess.
