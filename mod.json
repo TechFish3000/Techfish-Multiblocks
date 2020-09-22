@@ -1,7 +1,7 @@
 {
-  "name": "Techfish-Testing",
+  "name": "Techfish-Multiblocks",
   "author": "Techfish3000",
-  "description": "i haz ideas",
+  "description": "Multiblock stuffs",
   "version": 1.0,
 
   "dependencies": [ "techfish-core"]
