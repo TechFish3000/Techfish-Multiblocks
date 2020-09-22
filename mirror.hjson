@@ -1,0 +1,13 @@
+
+type: Block
+localizedName: "Solar Tower Mirror"
+description: "lol"
+category: distribution
+size: 1
+breakable: true
+health: 2
+
+
+requirements: [ "metaglass/2"
+                "titanium/5" ]
+

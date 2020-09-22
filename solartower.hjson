@@ -1,0 +1,15 @@
+
+
+localizedName: "Solar Tower"
+description: "lol"
+category: distribution
+size: 1
+powerProduction: 1.0
+update: true
+solid: true
+
+configurable: true
+
+requirements: [ "silicon/75"
+                "titanium/30" ]
+
