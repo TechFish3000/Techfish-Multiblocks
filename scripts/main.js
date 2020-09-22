@@ -4,12 +4,12 @@ var DebugMode = true
 
 // Bare mode, will only load the scripts in Barescripts[]
 
-var BareMode = true
-var BareScripts = ["solartower"]
+var BareMode = false
+var BareScripts = []
 //var BareScripts = []
 // scripts to be loaded
 
-var Scripts = ["laserwall", "teleporter", "testblock"]
+var Scripts = ["solartower"]
 
 
 if (!BareMode) {
@@ -21,7 +21,7 @@ if (!BareMode) {
     }
 }
 else {
-    print("Bare mode enabled, remember what you're doing techfish.")
+    print("Bare mode enabled, remember what you're doing, don't break anything.")
     for (var v = 0; v < BareScripts.length; v++) {
         require(BareScripts[v])
         if (DebugMode) {
