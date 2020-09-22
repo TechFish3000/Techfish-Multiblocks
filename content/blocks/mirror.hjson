@@ -2,7 +2,7 @@
 type: Block
 localizedName: "Solar Tower Mirror"
 description: "lol"
-category: distribution
+category: power
 size: 1
 breakable: true
 health: 2
