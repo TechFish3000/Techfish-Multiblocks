@@ -14,7 +14,7 @@ const tower = extendContent(PowerGenerator, "solartower", {
 
     
     configured(tile, value) {
-        var mirror = Vars.content.getByName(ContentType.block, "techfish-testing-mirror");
+        var mirror = Vars.content.getByName(ContentType.block, "techfish-multiblocks-mirror");
         print("---")
         print(Vars.content.blocks())
         print(tile.getNearby(1, 0).block())
